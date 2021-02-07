@@ -49,7 +49,7 @@ console.log(cost);
 
 
 
-function tinyFriend(names) {
+function megaFriend(names) {
     var longest = names[0];
     for (var i = 0; i < names.length; i++) {
         var arrayNumber = names[i];
@@ -59,5 +59,5 @@ function tinyFriend(names) {
     }
     return longest;
 }
-var longestFriend = tinyFriend (["Habib", "Miraz", "Rabbi", "Musanur", "Osman"]);
+var longestFriend = megaFriend (["Habib", "Miraz", "Rabbi", "Musanur", "Osman"]);
 console.log ( longestFriend);
